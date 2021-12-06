@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(190, 68, 68);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-left: 5%;
+  margin-top: 5%;
+  padding: 10px;
+  border: 5px;
+}
+
+.single {
+  border: 2px solid black;
+  width: 300px;
+  height: fit-content;
+  border-radius: 12px;
+  padding: 5px;
+  border-spacing: 25px;
+  margin-bottom: 50px;
+}
+
+img {
+  width: 50px;
+  height: 45px;
+}
+
+.placeholder {
+  width: 300px;
+  height: 25px;
+  margin-top: 4%;
+  margin-left: 2%;
+  border: 2px solid black;
+  font-size: small;
+  background-color: rgb(255, 255, 255);
+  border-radius: 100px;
+}
+
+.buttonPlus {
+  background-color: rgb(151, 151, 233);
+  margin-top: 77px;
+  margin-left: 850px;
+
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
+  transform: scale(1.05) rotate(-1deg);
+  margin-bottom: 5%;
+}
+
+.header {
+  border: 5px solid;
+  font-size: 35px;
+  border-image: black;
+}
+
+.removeHandler {
+  background: red;
+  border: 0;
+  border-radius: 10px;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial,
+    sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow 0.2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  margin-left: 50px;
+}
+
+.button-62:not([disabled]):focus .button-62:not([disabled]):hover .msg-box {
+  border-radius: 5px;
+  width: 10%;
+  margin-left: 10%;
+  color: red;
+  height: fit-content;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: -15px;
+}
+
+@media only screen and (max-width: 480px) {
+  .container {
+    grid-template-columns: auto;
+  }
+}
